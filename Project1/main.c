@@ -2,10 +2,12 @@
 #include <stdio.h>
 
 int main(void) {
-	// 관계연산자
-	int a, b;
-	scanf("%d %d", &a, &b);
-	printf("%d\n", a > b);
+	// 논리연산자
+	int a, b, c;
+	scanf("%d %d %d", &a, &b, &c);
+	printf("%d\n", !a);
+	printf("%d\n", a && b);
+	printf("%d\n", (a > b) && (b > c));
 
 	system("pause");
 	return 0;
