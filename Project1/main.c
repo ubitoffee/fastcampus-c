@@ -2,7 +2,11 @@
 #include <stdio.h>
 
 int main(void) {
-	printf("\"A\tB\tC\tD\"\n");
+	// 관계연산자
+	int a, b;
+	scanf("%d %d", &a, &b);
+	printf("%d\n", a > b);
+
 	system("pause");
 	return 0;
 }
