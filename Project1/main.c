@@ -3,10 +3,8 @@
 
 int main(void) {
 	// 증감연산자
-	int a = 7;
-	printf("%d\n", ++a);
-	printf("%d\n", a++);
-	printf("%d\n", ++a);
+	int a = 7, b = 7;
+	printf("%d\n", (a == b) ? 100 : -100);
 
 	system("pause");
 	return 0;
