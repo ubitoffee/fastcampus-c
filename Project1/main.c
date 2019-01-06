@@ -2,13 +2,7 @@
 #include <stdio.h>
 
 int main(void) {
-	int a, b;
-	scanf("%d %d", &a, &b);
-	printf("%d + %d = %d\n", a, b, a + b);
-	printf("%d - %d = %d\n", a, b, a - b);
-	printf("%d * %d = %d\n", a, b, a * b);
-	printf("%d / %d = %d\n", a, b, a / b);
-	printf("%d %% %d = %d\n", a, b, a % b);
+	printf("\"A\tB\tC\tD\"\n");
 	system("pause");
 	return 0;
 }
